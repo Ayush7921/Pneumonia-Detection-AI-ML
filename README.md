@@ -1,35 +1,132 @@
-# Pneumonia-Detection-AI-ML
+# 🫁 Pneumonia Detection System using Chest X-Rays through Machine Learning
 
 Project website: [PNEUMONIA DETECTION](https://pneumonia-detector-pearl.vercel.app/#)
 
-## Overview
-Pneumonia-Detection-AI-ML is a repository that provides code, models, and instructions to train and evaluate machine learning models for detecting pneumonia from chest X-ray images. The goal is to provide reproducible training pipelines, evaluation scripts, and examples to help researchers and practitioners build and deploy pneumonia detection systems.
 
-## About pneumonia detection
-Pneumonia detection from chest X-rays uses computer vision and deep learning techniques to identify signs of lung infection. Models typically:
-- Use convolutional neural networks (CNNs) or transfer learning from pre-trained image models (e.g., ResNet, DenseNet).
-- Preprocess images by resizing, normalizing, and applying augmentation (flips, rotations, contrast adjustments).
-- Train on labeled datasets (for example, Chest X-ray datasets with pneumonia annotations) and evaluate with metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
+An AI-powered web application for detecting pneumonia from chest X-ray images using classical machine learning techniques. The system combines advanced image preprocessing, handcrafted feature extraction, ensemble learning, and explainable AI to provide fast, reliable, and interpretable predictions.
 
-These systems can help clinicians by providing a second opinion, prioritizing cases, and speeding up triage, but they must be validated thoroughly and used alongside clinical judgment.
+---
 
-## Repository structure
-- README.md — project overview and quick start
-- src/ — training and inference scripts
-- notebooks/ — Jupyter notebooks for exploration and demos
-- models/ — saved model weights and artifacts (gitignored)
-- data/ — dataset download and preprocessing scripts
-- tests/ — simple smoke tests
+## 📌 Overview
 
-## Quick start
-1. Clone the repo:
-   git clone https://github.com/Ayush7921/Pneumonia-Detection-AI-ML.git
-2. Create a virtual environment and install dependencies:
-   pip install -r requirements.txt
-3. Prepare data (see data/README.md) and run training:
-   python src/train.py --data-path data/
-4. Run inference on an image:
-   python src/predict.py --model models/latest.pth --image path/to/xray.png
+Pneumonia is one of the leading causes of death worldwide, particularly among children and elderly patients. Early diagnosis is essential but requires experienced radiologists.
 
-## License
-This project is available under the MIT License. See LICENSE for details.
+This project provides an automated decision support system that analyzes chest X-ray images and predicts whether pneumonia is present.
+
+Unlike deep learning-only approaches, this system combines handcrafted image descriptors with ensemble machine learning to improve interpretability while maintaining high accuracy.
+
+---
+
+## ✨ Features
+
+- Chest X-ray upload
+- Image validation pipeline
+- CLAHE image enhancement
+- Histogram of Oriented Gradients (HOG)
+- Local Binary Pattern (LBP)
+- Feature normalization
+- Ensemble Machine Learning classifier
+- Pneumonia severity estimation
+- Explainable AI (SHAP)
+- FastAPI backend
+- Responsive web interface
+- PDF report generation
+- Serverless deployment
+
+---
+
+## 🏗️ System Pipeline
+
+```
+
+Upload Chest X-ray
+↓
+Image Validation
+↓
+CLAHE Preprocessing
+↓
+Feature Extraction
+(HOG + LBP)
+↓
+Feature Scaling
+↓
+Ensemble Classifier
+↓
+Prediction
+↓
+Severity Analysis
+↓
+SHAP Explainability
+↓
+Generate Report
+
+```
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+### Image Preprocessing
+
+- Convert to grayscale
+- Resize images
+- CLAHE enhancement
+- Normalization
+
+---
+
+### Feature Extraction
+
+The model extracts multiple handcrafted features including
+
+- Histogram of Oriented Gradients (HOG)
+- Local Binary Pattern (LBP)
+- Statistical Features
+- Lung Symmetry Features
+- Gradient Energy Features
+
+---
+
+### Classification
+
+Ensemble Model consisting of
+
+- Support Vector Machine
+- Random Forest
+- Gradient Boosting
+
+Final prediction is obtained using Soft Voting.
+
+---
+
+## 📂 Project Structure
+
+```
+
+Pneumonia-Detection-System/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│ ├── train.py
+│ ├── inference.py
+│ ├── preprocess.py
+│ ├── features.py
+│ ├── model.py
+│ ├── dataset.py
+│ ├── validation.py
+│ └── utils.py
+│
+├── data/
+│ ├── download_data.py
+│ ├── preprocess.py
+│ └── README.md
+│
+├── models/
+│
+├── notebooks/
+│
+└── tests/
+
