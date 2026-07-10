@@ -233,6 +233,8 @@ uvicorn api:app --reload
 > Add screenshots of your application here.
 
 - Home Page
+  <img width="2520" height="1432" alt="image" src="https://github.com/user-attachments/assets/c1bf50a3-75cf-4d7a-9383-692bf2492ac3" />
+
 - Upload Interface
 - Prediction Result
 - Severity Analysis
