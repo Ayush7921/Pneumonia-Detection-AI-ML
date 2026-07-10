@@ -232,6 +232,14 @@ uvicorn api:app --reload
 
 <img width="2520" height="1432" alt="image" src="https://github.com/user-attachments/assets/c1bf50a3-75cf-4d7a-9383-692bf2492ac3" />
 
+<img width="2520" height="1340" alt="image" src="https://github.com/user-attachments/assets/a5199a88-563c-4e81-b777-3db20137d947" />
+
+<img width="2524" height="1412" alt="image" src="https://github.com/user-attachments/assets/3c492dce-d6b3-4628-b09b-d603eab40538" />
+
+<img width="2526" height="1304" alt="image" src="https://github.com/user-attachments/assets/2bd432ae-a1fa-4400-95a0-cdb045784019" />
+
+
+
 
 
 
