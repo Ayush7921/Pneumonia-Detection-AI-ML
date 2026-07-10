@@ -1,0 +1,15 @@
+numpy
+pandas
+opencv-python
+scikit-image
+scikit-learn
+matplotlib
+joblib
+fastapi
+uvicorn
+pillow
+shap
+scipy
+tqdm
+python-multipart
+jinja2
