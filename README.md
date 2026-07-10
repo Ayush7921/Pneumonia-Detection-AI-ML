@@ -236,6 +236,8 @@ uvicorn api:app --reload
 
 <img width="2524" height="1412" alt="image" src="https://github.com/user-attachments/assets/3c492dce-d6b3-4628-b09b-d603eab40538" />
 
+<img width="2536" height="1422" alt="Screenshot 2026-07-10 162755" src="https://github.com/user-attachments/assets/29804065-378d-4f78-a028-ff1f888b6316" />
+
 <img width="2526" height="1304" alt="image" src="https://github.com/user-attachments/assets/2bd432ae-a1fa-4400-95a0-cdb045784019" />
 
 
