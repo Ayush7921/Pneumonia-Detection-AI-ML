@@ -145,18 +145,11 @@ The model is trained using separate training, validation, and testing datasets.
 
 # 📁 Repository Structure
 
-```
-Pneumonia-Detection-System/
-│
-├── README.md
-├── requirements.txt
-├── src/
-├── data/
-├── models/
-├── notebooks/
-└── tests/
-```
-
+readMe file
+Main Project Report (39+ pages) – complete methodology, architecture, HOG + LBP, Random Forest, SHAP, FastAPI, results, etc.
+Layman Guide (12 pages) – project ko simple language me explain karta hai, end-to-end pipeline ke saath.
+Abstract/Report Copy – detailed report with objectives, methodology, implementation, and evaluation.
+Technical Summary (7 pages) – concise summary of dataset, preprocessing, ensemble model, performance metrics, deployment, and tech stack.
 ---
 
 # 🚀 Installation
