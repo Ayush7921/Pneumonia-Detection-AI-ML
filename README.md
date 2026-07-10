@@ -129,4 +129,96 @@ Pneumonia-Detection-System/
 ├── notebooks/
 │
 └── tests/
+📊 Dataset
 
+Dataset
+
+Kaggle Chest X-Ray Images (Pneumonia)
+
+Dataset contains
+
+Normal Chest X-rays
+Pneumonia Chest X-rays
+
+Training, validation, and testing sets are used for model development.
+
+⚙️ Technologies Used
+Backend
+Python
+FastAPI
+Scikit-Learn
+Frontend
+HTML
+CSS
+JavaScript
+Tailwind CSS
+Machine Learning
+HOG
+LBP
+Random Forest
+SVM
+Gradient Boosting
+SHAP
+🚀 Installation
+
+Clone repository
+
+git clone https://github.com/username/Pneumonia-Detection-System.git
+
+cd Pneumonia-Detection-System
+
+Create virtual environment
+
+python -m venv venv
+
+Activate
+
+Windows
+
+venv\Scripts\activate
+
+Linux
+
+source venv/bin/activate
+
+Install dependencies
+
+pip install -r requirements.txt
+🏃 Training
+python src/train.py
+🔍 Inference
+python src/inference.py
+📈 Performance
+Metric	Score
+Accuracy	93.9%
+Precision	94.6%
+Recall	97.1%
+F1 Score	95.8%
+ROC-AUC	98.2%
+📸 Screenshots
+
+Add screenshots here.
+
+Home Page
+
+Upload Interface
+
+Prediction Result
+
+Severity Analysis
+
+SHAP Visualization
+🔮 Future Improvements
+Multi-class disease detection
+COVID-19 Detection
+Tuberculosis Detection
+Mobile Application
+PACS Integration
+Cloud Deployment
+👨‍💻 Authors
+
+Developed as a B.Tech Final Year Project.
+
+📜 License
+
+This project is released under the MIT License.
