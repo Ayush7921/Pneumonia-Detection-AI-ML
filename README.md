@@ -1,6 +1,6 @@
 # Pneumonia-Detection-AI-ML
 
-Project website: [Project website](https://pneumonia-detector-pearl.vercel.app/#)
+Project website: [PNEUMONIA DETECTION](https://pneumonia-detector-pearl.vercel.app/#)
 
 ## Overview
 Pneumonia-Detection-AI-ML is a repository that provides code, models, and instructions to train and evaluate machine learning models for detecting pneumonia from chest X-ray images. The goal is to provide reproducible training pipelines, evaluation scripts, and examples to help researchers and practitioners build and deploy pneumonia detection systems.
