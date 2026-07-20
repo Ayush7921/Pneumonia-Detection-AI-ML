@@ -260,7 +260,7 @@ uvicorn api:app --reload
 
 # 🤝 Contributors
 
-Developed as a B.Tech Major Project.
+Developed as a B.Tech student .
 
 ---
 
