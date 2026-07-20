@@ -144,7 +144,7 @@ The model is trained using separate training, validation, and testing datasets.
 ---
 
 # 📁 Repository Structure
-
+---
 readMe file
 Main Project Report (39+ pages) – complete methodology, architecture, HOG + LBP, Random Forest, SHAP, FastAPI, results, etc.
 Layman Guide (12 pages) – project ko simple language me explain karta hai, end-to-end pipeline ke saath.
